@@ -1,0 +1,46 @@
+/* body{
+    border:1px solid black;    
+    background-color: blue;
+} */ 
+.container{
+    
+    /* display:flex; */
+    /* border:solid 2px black; */
+    height:175px;
+    width:200px;
+    margin-left:400px;
+    margin-top:75px;
+    padding:10px;
+    flex-direction:row;
+   
+
+}
+
+.bulb button{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: none;
+    margin: 20px;
+    font-size: 65px;
+    /* box-shadow: 0 4px 32px 0 rgba(10,14,29,.02), 0 8px 64px 0 rgba(10,14,29,.08); */
+    /* cursor: pointer; */
+    background-color:grey;
+}
+
+.btn button{
+/* padding:50px; */
+display:flex;
+margin-top:-70px;
+margin-left:300px;
+/* padding:10px; */
+background-color: white ;
+border-radius: 15%;
+padding:10px;
+width:50px;
+}
+
+.btn button:hover{
+    background-color: whitesmoke;
+}
+
