@@ -1,20 +1,21 @@
 import React, { useState } from 'react';
 import './light.css';
 
-const Light = ({switchOn,switches}) => {
+const Light = () => {
     var[color,setColor] = useState('grey')
-
+    var[switches,setSwitch]=useState('ON')
     var click = () =>{
-        switchOn==='ON' ? setColor("orange") : setColor('grey');
-        switches()
+        setColor(color==='orange'?'grey':'orange');
+        setSwitch(switches==='ON'?'OFF':'ON');
     }
-  return (
+  
+    return (
   <div className="container">
       <div className="bulb">
       <button style={{background:color}}> </button>
       </div>
       <div className="btn">
-          <button onClick={click}>{switchOn}</button>
+          <button onClick={click}>{switches}</button>
       </div>
      
   </div>
