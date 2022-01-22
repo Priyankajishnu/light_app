@@ -4,12 +4,12 @@ import Light from './components/light';
 
 
 function App() {
-const [val1,setVal1]=useState('ON')
-const [val2,setVal2]=useState('ON')
+const [bulb1,setBulb1]=useState('ON')
+const [bulb2,setBulb2]=useState('ON')
   return (
     <div style={{border:"2px solid black",margin:25}} className="App">
-     <Light switchOn = {val1} switches={() =>setVal1(val1 === 'ON' ? 'OFF' : 'ON')} />
-     <Light switchOn = {val2} switches={() =>setVal2(val2 === 'ON' ? 'OFF' : 'ON')} />
+     <Light switchOn = {bulb1} switches={() =>setBulb1(bulb1 === 'ON' ? 'OFF' : 'ON')} />
+     <Light switchOn = {bulb2} switches={() =>setBulb2(bulb2 === 'ON' ? 'OFF' : 'ON')} />
     </div>
   );
 }
