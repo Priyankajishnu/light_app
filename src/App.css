@@ -1,9 +1,12 @@
 .App {
+  border:2px solid black;
+  margin-left:375px;
+  margin-top:100px;
   text-align: center;
   display:flex;
   width:520px;
-  height:500px;
-  background-color:plum;
+  height:400px;
+  background-color:rgb(166, 206, 230);
   /* align-items: center; */
 }
 

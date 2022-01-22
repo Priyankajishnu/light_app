@@ -9,7 +9,7 @@
     height:175px;
     width:200px;
     margin-left:400px;
-    margin-top:75px;
+    margin-top:20px;
     padding:10px;
     flex-direction:row;
    
@@ -17,8 +17,8 @@
 }
 
 .bulb button{
-    width: 75px;
-    height: 75px;
+    width: 85px;
+    height: 85px;
     border-radius: 50%;
     border: none;
     margin: 20px;
@@ -43,6 +43,6 @@ cursor: pointer;
 }
 
 .btn button:hover{
-    background-color:violet;
+    background-color:royalblue;
 }
 

@@ -11,6 +11,7 @@ const Light = () => {
   
     return (
   <div className="container">
+      
       <div className="bulb">
       <button style={{background:color}}> </button>
       </div>
